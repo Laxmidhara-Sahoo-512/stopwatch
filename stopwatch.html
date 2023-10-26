@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <div class="stopwatchbox" style="position: relative;">
+       <img src="natimage1.jpeg" alt="" style="position: absolute;height: 100%;width: 100%;left: 0;top: 0;z-index: -3;opacity: 0.5;"> 
+      <h3 style="z-index: 3;" id="time">00:00:00</h3>
+      <div class="container" >
+        <button  id="pause" onclick="stopwatch()"><img src="pause.png" alt="" style="height: 100%;width: 100%;"></button>
+        <button id="play" onclick="startwatch()"><img src="play-button-arrowhead.png" alt="" style="height: 100%;width: 100%;"></button>
+        <button  id="reset" onclick="reset()"><img src="reset.png" alt="" style="height: 100%;width: 100%;"></button>
+      </div>
+        
+    </div>
+    <script src="stopwatch.js"></script>
+   
+</body>
+</html>

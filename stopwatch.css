@@ -1,0 +1,17 @@
+.stopwatchbox{
+    height: 200px;width: 400px;margin: auto;margin-top: 200px;border: solid 1px transparent;
+    text-align: center;
+    
+}
+h3{
+    font-size: xx-large;font-family: 'Times New Roman', Times, serif;margin-top: 50px;
+    color: red;
+}
+button{
+    display: block;background-color: transparent;height: 40px;width: 50px;border: none;
+}
+
+.container{
+    width: 70%;height: 50px;margin: auto;border: solid 1px transparent;
+    display: flex;flex-direction: row;justify-content: space-around;align-items: center;
+}
